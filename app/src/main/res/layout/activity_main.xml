@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5A36F"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+
+       <Button
+           android:id="@+id/btnGoBack"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:backgroundTint="#36709E"
+           android:text="Back"
+           android:textColor="#C51010"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           app:cornerRadius="10dp"
+           app:strokeColor="#E91E63"
+           app:strokeWidth="3dp">
+
+       </Button>
+
+       <Button
+           android:id="@+id/btnGoForword"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#C81F1F"
+           android:textSize="25sp"
+           app:cornerRadius="10dp"
+           android:layout_marginLeft="5dp"
+           android:backgroundTint="#918C60"
+           app:strokeColor="#E91E63"
+           app:strokeWidth="3dp"
+           android:textStyle="bold"
+           android:text="For">
+
+       </Button>
+
+       <EditText
+           android:id="@+id/edtUrl"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:hint="Write URL">
+
+       </EditText>
+
+       <Button
+           android:id="@+id/btnGo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           app:cornerRadius="10dp"
+           android:layout_marginLeft="10dp"
+           android:backgroundTint="#8BC34A"
+           app:strokeColor="#E91E63"
+           app:strokeWidth="3dp"
+           android:text="Go">
+
+       </Button>
+
+
+
+   </LinearLayout>
+
+    <WebView
+        android:id="@+id/webview"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+
+</LinearLayout>

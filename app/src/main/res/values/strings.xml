@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">webview</string>
+    <string name="back">48</string>
+    <string name="go0" />
+    <string name="go" />
+    <string name="forword" />
+    <string name="next" />
+</resources>
